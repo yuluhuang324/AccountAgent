@@ -1,0 +1,6 @@
+dimension,metric,result,source
+Voucher recognition,Field accuracy (30+ receipt types),">99%",Production deployment (paper §7)
+Voucher processing,Monthly post-approval error rate,<0.3%,Production deployment (paper §7)
+Business-finance integration,Monthly closing time,days -> 1 day,Production deployment (paper §7)
+Fund management,Forecast horizon,30 days,System design (paper §4.5)
+Fund management,Health-score warning trigger,score < 70,System design (paper §4.5)

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "AccountAgent: An End-to-End AI Accounting Assistant System with Multimodal Voucher Processing and Intelligent Financial Control"
+authors:
+  - family-names: Huang
+    given-names: Yulu
+  - family-names: Yu
+    given-names: Niannian
+  - family-names: Yang
+    given-names: Yaxin
+  - family-names: Lv
+    given-names: Jinpeng
+type: article
+journal: "Project Report, Jiangxi University of Finance and Economics"
+year: 2026
+keywords:
+  - AI Accounting
+  - Multimodal Large Language Model
+  - Voucher Processing
+  - Business-Finance Integration
+  - Tax Compliance
+  - Fund Forecasting
+license: MIT
