@@ -46,8 +46,6 @@ results, and a runnable reference implementation for the five-layer AccountAgent
 
 ## Five-layer architecture
 
-### Five-layer architecture
-
 | | Layer | Function |
 |---|---|---|
 | **1** | **Intelligent Voucher Full-Pipeline Processing** | Multimodal recognizer (30+ receipt types) · knowledge-base subject matcher · hard double-entry validator |
