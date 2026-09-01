@@ -44,6 +44,8 @@ results, and a runnable reference implementation for the five-layer AccountAgent
 | Business–finance integration | Monthly closing time | **days → 1 day** |
 | Fund management | Forecast horizon / warning trigger | **30 days / score < 70** |
 
+## Five-layer architecture
+
 | | Layer | Function |
 |---|---|---|
 | **1** | <small>**Intelligent Voucher Full-Pipeline Processing**</small> | <small>Multimodal recognizer (30+ receipt types) · knowledge-base subject matcher · hard double-entry validator</small> |
