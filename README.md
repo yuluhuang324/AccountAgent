@@ -44,15 +44,13 @@ results, and a runnable reference implementation for the five-layer AccountAgent
 | Business–finance integration | Monthly closing time | **days → 1 day** |
 | Fund management | Forecast horizon / warning trigger | **30 days / score < 70** |
 
-## Five-layer architecture
-
 | | Layer | Function |
 |---|---|---|
-| **1** | **Intelligent Voucher Full-Pipeline Processing** | Multimodal recognizer (30+ receipt types) · knowledge-base subject matcher · hard double-entry validator |
-| **2** | **Business–Finance Integrated Data Coordination** | Event-driven integration bus · AR / AP posting · cross-period closing |
-| **3** | **Multidimensional Data Analysis and Warning** | Rule engine · OLS trend detection · 2σ anomaly flagging · dashboard |
-| **4** | **Full-Pipeline Tax-Compliance Management** | VAT / income tax / stamp-duty computation · deadline calendar · declaration packets |
-| **5** | **Intelligent Fund Management and Forecasting** | 30-day OLS cash forecast · health-score gating · advisory on liquidity gaps |
+| **1** | <small>**Intelligent Voucher Full-Pipeline Processing**</small> | <small>Multimodal recognizer (30+ receipt types) · knowledge-base subject matcher · hard double-entry validator</small> |
+| **2** | <small>**Business–Finance Integrated Data Coordination**</small> | <small>Event-driven integration bus · AR / AP posting · cross-period closing</small> |
+| **3** | <small>**Multidimensional Data Analysis and Warning**</small> | <small>Rule engine · OLS trend detection · 2σ anomaly flagging · dashboard</small> |
+| **4** | <small>**Full-Pipeline Tax-Compliance Management**</small> | <small>VAT / income tax / stamp-duty computation · deadline calendar · declaration packets</small> |
+| **5** | <small>**Intelligent Fund Management and Forecasting**</small> | <small>30-day OLS cash forecast · health-score gating · advisory on liquidity gaps</small> |
 
 The five layers form a closed accounting loop rather than a linear chain: recognized vouchers
 drive business–finance integration; integration surfaces the anomalies that analysis flags;
